@@ -5,7 +5,11 @@ public class Main {
         int a = 54;
         int b = 32;
         int h = 26;
-        System.out.println("");
+        int volume = a * b * h;
+        int lenght = (a + b + h) * 4;
+        System.out.println("volume =" + volume);
+        System.out.println("lenght =" + lenght);
+
 
     }
 }
