@@ -1,6 +1,6 @@
 package com.hillel.stulov.lessons.lesson4;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 
         char Li_dynasty_warriors_damage = 'a';
@@ -41,3 +41,4 @@ public class main {
 
     }
 }
+
