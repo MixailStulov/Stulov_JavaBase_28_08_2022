@@ -23,7 +23,7 @@ public class Main {
         System.out.println(counter_terrorist);
         System.out.println(terrorist);
         System.out.println((counter_terrorist > terrorist) ? "yes" : "no");
-        System.out.println("win team =" + (team1) + " skore " + (counter_terrorist) + " points ");
+        System.out.println("win team =" + (team1) + " score " + (counter_terrorist) + " points ");
 
     }
 }
