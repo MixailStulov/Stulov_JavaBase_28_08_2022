@@ -36,9 +36,5 @@ public class Main {
 
         System.out.println("Li total damage = " + Li_total_damage);
         System.out.println("Ming total damage = " + Ming_total_damage);
-
-
-
     }
 }
-
