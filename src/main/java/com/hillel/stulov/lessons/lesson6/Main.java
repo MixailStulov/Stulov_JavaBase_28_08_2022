@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner gm = new Scanner(System.in);
+        Scanner game = new Scanner(System.in);
         System.out.print("Guess the number from 1 to 10?:");
         int count;
         int a = 1;
@@ -12,7 +12,7 @@ public class Main {
         int randomNumber = a + (int) (Math.random() * b);
         System.out.println();
         for (int i = 1; i < 4; i++) {
-            count = gm.nextInt();
+            count = game.nextInt();
             if (count < randomNumber) {
                 System.out.println("Wrong. My number is greater than yours ");
 
