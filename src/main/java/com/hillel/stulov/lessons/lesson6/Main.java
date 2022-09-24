@@ -1,5 +1,6 @@
 package com.hillel.stulov.lessons.lesson6;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
@@ -16,21 +17,27 @@ public class Main {
         System.out.println();
 
         for (int i = 1; i < 4; i++) {
-            count = game.nextInt();
-            if (count < randomNumber) {
-                System.out.println("Wrong. My number is greater than yours ");
-
-            } else if (count > randomNumber) {
+            if (game.hasNextInt()) {
+                count = game.nextInt();
+                if (count < randomNumber) {
+                    System.out.println("Wrong. My number is greater than yours ");
+                    game.nextLine();
+                } else if (count > randomNumber) {
                     System.out.println("Wrong. My number is less than yours ");
 
-            } else {
-                System.out.println("Сongratulations you guessed the number!: " + randomNumber);
-                System.exit(0);
+                } else {
+                    System.out.println("Сongratulations you guessed the number!: " + randomNumber);
+                }
 
+                } else {
+                    System.out.println("Wrong data");
+                    game.nextLine();
                 }
             }
         }
     }
+
+
 
 
 
