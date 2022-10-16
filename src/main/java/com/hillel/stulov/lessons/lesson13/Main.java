@@ -33,10 +33,10 @@ public class Main {
         System.out.println(pippen.printAccount());
 
         leBron.setSurname("Rodman");
-        leBron.setSteps(22000);
+        leBron.setSteps(29500);
 
         pippen.setSurname("O'Neal");
-        pippen.setSteps(34000);
+        pippen.setSteps(31200);
 
         System.out.println("");
         System.out.println(" updated data ");
